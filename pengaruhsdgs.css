@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Modak&family=Slackey&display=swap');
+
 /* General Reset */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url(uwu.jpg);
-    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(uwu.jpg)
 }
 
 /* Navigation Bar */
@@ -18,14 +19,15 @@ body {
 }
 
 .navbar .button {
-    padding: 10px 20px; 
-    margin: 0 5px; 
+    padding: 10px 20px;
+    margin: 0 5px;
     display: block;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 .nav-item {
-    position: relative; /* For dropdown positioning */
+    position: relative;
+    /* For dropdown positioning */
     margin: 0 10px;
 }
 
@@ -56,10 +58,12 @@ body {
     cursor: pointer;
 }
 
+/* Dropdown Content */
 .dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
+    /* Align below the button */
     cursor: pointer;
     border-radius: 5px;
 }
@@ -77,8 +81,17 @@ body {
     display: inline-block;
 }
 
+h4{
+    color: #51d3ed;
+    margin: 20px 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.845);
+    border-radius: 6px;
+    padding: 10px 10px 10px;
+}
+
 h1{
-    color: rgb(118, 248, 255);
+    color: rgb(254, 141, 216);
     font-family: 'Slackey';
     text-shadow: 2px 2px #ffffff;
     text-decoration: underline;
@@ -86,24 +99,54 @@ h1{
     font-size: 50px;
 }
 
-h3{
+h2{
     color: #ffffff;
-    text-shadow: 2px 2px rgb(74, 192, 201);
-    margin: 50px 50px;
+    font-family: 'Slackey';
+    font-size: 20px;
     text-align: center;
-    background-color: rgba(255, 164, 205, 0.813);
-    border-radius: 10px 10px;
 }
 
-h3:hover{
-    box-shadow: 10px 10px#ff6bcb97;
+h3{
+    background-color: rgb(255, 133, 206);
+    color: #ffffff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.18);
+    width: 100%;
+    font-family: "Slackey";
+    text-align: center;
+    font-size: 30px;
 }
-.strong {
-    font-weight: bolder;
-  }
+
+h3:hover {
+    background-color: #32f1fb;
+    cursor: pointer;
+}
+
+.columnleft{
+    margin:50px 50px;
+    width: 40%;
+    background-color: #9fe6f9;
+    border-radius: 10px;
+    float: left;
+    padding: 0px 10px;
+}
+.columnright{
+    margin:50px 50px;
+    width: 40%;
+    background-color: #9fe6f9;
+    border-radius: 10px;
+    float: left;
+    padding: 0px 10px;
+}
 
 .highlight {
-    background-color: rgb(121, 237, 255);
+    background-color: rgb(141, 255, 251);
     width: 20px;
     border-radius: 30px;
+    padding: 6px 6px 6px;
   }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
